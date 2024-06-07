@@ -1,4 +1,5 @@
 import '../styles/App.css';
+import '../styles/reset.css';
 import FormSection from './FormSection.jsx';
 
 function App() {
