@@ -3,3 +3,10 @@ h1 {
 	font-size: 3rem;
 	font-weight: 700;
 }
+
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 8px 20%;
+}
