@@ -24,7 +24,6 @@ function App() {
       <FormSection headerText='Education' inputFields={['University', 'Speciality', 'Date of study']} />
       {jobFormSections}
       <Button name='Add new' type='button' onClick={addNewJobFormSection} />
-      <Button name='Submit' type="submit" />
     </div>
   );
 }
