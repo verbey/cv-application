@@ -5,14 +5,13 @@ import Button from './Button.jsx';
 
 function FormSection(props) {
 	const inputFields = [];
-	props.inputFields.forEach((inputField) => {
-		inputFields.push(<Input type='text' required placeholder={inputField} maxlength='64' />);
+	props.inputFields.forEach((inputField, index) => {
+		inputFields.push(<Input type='text' required placeholder={inputField} maxlength='64' id={index} key={index} />);
 	});
 	return (
-		<div className="formSection">
+		<div className="formSection" id={props.id}>
 			<Header text={props.headerText} />
-			<form action="
-			">
+			<form action="">
 				{inputFields}
 				<Button name='Submit' type='sumbit' />
 			</form>

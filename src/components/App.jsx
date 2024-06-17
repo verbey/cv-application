@@ -14,7 +14,7 @@ function App() {
   const jobFormSections = [];
 
   for (let i = 0; i < jobFormSectionsNumber; i++) {
-    jobFormSections.push(<FormSection headerText='Job' inputFields={['Job title', 'Company', 'Responsibilities', 'Date of work']} />);
+    jobFormSections.push(<FormSection headerText='Job' inputFields={['Job title', 'Company', 'Responsibilities', 'Date of work']} id={i} key={i} />);
   }
 
   return (
