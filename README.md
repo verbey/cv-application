@@ -1,6 +1,6 @@
 # CV Application
 
-## Ovewview
+## Overview
 This web app allows the user to work with a form for a fake CV. Made with the goal of practicing React as a part of [the Odin Project course](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
  ## Code
